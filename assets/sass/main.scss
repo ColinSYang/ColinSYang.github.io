@@ -93,6 +93,24 @@
 		appearance: none;
 	}
 
+/* Subsection */
+	.subsection {
+		text-align: left;
+		padding-left: 4em;
+		padding-right: 4em;
+		font-size: 110%;
+	}
+
+		& b {
+			color: #fff;
+		}
+
+		& ul li {
+			padding-left: none;
+			overflow-wrap: normal;
+		}
+
+
 /* Basic */
 
 	// Set box model to border-box.

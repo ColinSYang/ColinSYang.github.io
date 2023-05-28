@@ -72,6 +72,24 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Subsection */
+	.subsection {
+		text-align: left;
+		padding-left: 4em;
+		padding-right: 4em;
+		font-size: 110%;
+	}
+
+		.subsection b {
+			color: #fff;
+		}
+
+		.subsection ul li {
+			padding-left: none;
+			overflow-wrap: normal;
+		}
+
+
 /* Basic */
 
 	html {
@@ -1771,6 +1789,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
+			text-align: left;
 		}
 
 	ol {
